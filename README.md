@@ -25,16 +25,6 @@ UrbanWood is a mini furniture brand website featuring:
 
 ---
 
-## 🛠 Installation & Setup
-
-1. **Clone the repository:**
-
-```bash
-git clone https://github.com/yourusername/urbanwood.git
-cd urbanwood
-
-
-
 SEO Approach
 
 SEO is implemented using Next.js App Router to ensure server-rendered, crawlable content.
