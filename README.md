@@ -26,7 +26,7 @@ UrbanWood is a mini furniture brand website featuring:
 ---
 
 SEO Approach
-
+---
 SEO is implemented using Next.js App Router to ensure server-rendered, crawlable content.
 
 Dynamic Metadata:
@@ -48,7 +48,7 @@ Server-Side Rendering:
 Product listing and detail pages are SSR to guarantee that content is crawlable by search engines and SEO-friendly.
 
 📄 Pagination Logic
-
+---
 Server-side Pagination:
 Product listing page fetches only the current page data from server (SSR).
 
@@ -73,7 +73,7 @@ Back/forward navigation works correctly
 No redundant API calls
 
 🧠 State Management Decision
-
+---
 URL as Single Source of Truth:
 Filters (category, search) and pagination (page) are managed via query parameters.
 
@@ -98,7 +98,7 @@ Minimal client-side re-renders
 Clean architecture with no prop drilling
 
 ⚖️ Trade-offs Made
-
+---
 Mock JSON Data Instead of Database:
 
 Simpler setup
